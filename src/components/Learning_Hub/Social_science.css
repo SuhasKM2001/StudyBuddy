@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.social_main_file{
+    background-image: url('social_background.png');
+}
+
+.maths_heading_styling{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.836);
+    color: aliceblue;
+    font-size: 80px;
+    font-family: 'Parisienne', cursive;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.maths_liveclass_heading_style{
+    margin-top: 1em;
+    margin-left: 10px;
+    font-family: 'Acme', sans-serif;
+}
+
+.maths_liveclass_style{
+    margin-left: 10px;
+    width: 30%;
+    background-color: rgb(17, 17, 17);
+    border-radius: 10px;
+    color: white;
+    /* margin-top: 1em;
+    margin-left:1em ; */
+    margin-top: 2em;
+    margin-bottom: 2em;
+    /* border: 2px solid red; */
+}
+
+.maths_liveclass_text_style{
+    padding: 10px;
+    font-size: 18px;
+    margin-left: 1em;
+    font-family: 'Fredoka One', cursive;
+    
+}
+
+.maths_button_style{
+    border: none;
+    padding: 10px;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    /* margin: 1em; */
+    background-color: white;
+    border-radius: 5px;
+}
+
+.maths_link_style{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.maths_link_style1{
+    text-decoration: none;
+    color: white
+    
+}
+
+.session_style{
+    font-family: 'Fredoka One', cursive;
+}
+
+.resource_style{
+    font-size: 30px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.maths_contact_styling{
+    color: white;
+    font-family: 'Fredoka One', cursive;
+}
+
+.resource_style:hover{
+    color: white;
+    font-size: 34px;
+    transition: 0.5s;
+}
+
+.maths_topic_heading_style{
+    margin-left: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Acme', sans-serif;
+}
+
+.maths_topic_style{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+    margin-bottom: 2em;
+   
+}
+
+.maths_subtopic1_style{
+    /* margin-left: 2px; */
+    background-color: rgb(224, 102, 20);
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    width: 25%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    /* border: 2px solid red; */
+}
+.maths_subtopic2_style{
+    background-color: rgb(44, 179, 96);
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    width: 25%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    /* border: 2px solid red; */
+}
+.maths_subtopic3_style{
+    background-color: rgb(54, 12, 241);
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    width: 25%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    /* border: 2px solid red; */
+}
+.maths_expertise_heading_style{
+    text-align: center;
+    margin-left: 10px;
+    font-size: 40px;
+    font-family: 'Acme', sans-serif;
+}
+
+.maths_expertise_style{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+    /* margin-bottom: 2em; */
+}
+
+.maths_subexpertise1_style{
+    width: 25%;
+    border-radius: 10px;
+    background-color: black;
+    margin-bottom: 1em;
+    /* border: 2px solid red; */
+}
+
+.maths_subexpertise2_style{
+    width: 25%;
+    border-radius: 10px;
+    background-color: black;
+    margin-bottom: 1em;
+    /* border: 2px solid red; */
+}
+
+.maths_subexpertise3_style{
+    width: 25%;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    /* border: 2px solid red; */
+}
+
+.maths_subexpertise_contact_style{
+    display: flex;
+    align-items: center;
+}
+
+.maths_avatar{
+    padding: 1em;
+    margin: 0;
+    width: 30%;
+    margin-right: 1em;
+    border-radius: 100px;
+}
+
+
+
+@media(max-width: 768px){
+    .maths_liveclass_heading_style{
+        text-align: center;
+    }
+
+    .maths_liveclass_style
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .maths_topic_style{
+        display: flex;
+        flex-direction: column;
+        
+       
+    }
+
+    .maths_subtopic1_style{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1em;
+        text-align: center;
+        width: 30%;
+        border: 2px solid red;
+    }
+    .maths_subtopic2_style{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1em;
+        text-align: center;
+        width: 30%;
+        border: 2px solid red;
+    }
+    .maths_subtopic3_style{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1em;
+        text-align: center;
+        width: 30%;
+        border: 2px solid red;
+    }
+
+    .maths_expertise_style{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .maths_subexpertise1_style{
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1em;
+        border: 2px solid red;
+    }
+    .maths_subexpertise2_style{
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1em;
+        border: 2px solid red;
+    }
+    .maths_subexpertise3_style{
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1em;
+        border: 2px solid red;
+    }
+    .maths_subexpertise_contact_style{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+}

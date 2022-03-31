@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+.edu_heading_styling{
+    text-align: center;
+    background-color: rgba(0, 1, 10, 0.836);
+    color: aliceblue;
+    font-size: 80px;
+    font-family: 'Parisienne', cursive;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.education_background{
+    /* width: 100%; */
+    background-image: url("education_background.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-size: 1300px 1100px; */
+
+}
+
+.edu_main_list{
+    margin-bottom: 0;
+    /* padding-bottom: 0; */
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+.sublist_style{
+    background-image: linear-gradient( 70deg, #8929AD, #436AAC, #43B7B8 );
+    /* background-color: rgb(156, 168, 50); */
+    width: 30%;
+    padding: 7%;
+    margin: 3%;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    /* border: 1px solid rgb(82, 82, 82); */
+    /* box-shadow: 7px 5px 10px 5px rgb(189, 187, 187); */
+}
+
+.sublist_style:hover{
+    transition: 0.5s all ease;
+    /* background-image: linear-gradient( -70deg, #8929AD, #436AAC, #43B7B8 ); */
+    /* box-shadow: 7px 5px 10px 12px rgb(189, 187, 187); */
+    /* background-image: linear-gradient( to left, #08f1d2,#0712ac); */
+    
+}
+
+.link_style{
+    text-decoration: none;
+    text-align: center;
+}
+
+.edu_subject_style{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-family: 'Fredoka One', cursive;
+}
+
+.edu_subject_style:hover{
+    font-size: 28px;
+    transition: 0.5s all ease-in-out;
+}
+
+/* .Membership_styling{
+    box-shadow: 7px 5px 10px rgb(189, 187, 187);
+    background-color: #F8F6F3;
+    border-radius: 8px;
+    padding-bottom: 1em;
+    text-align: center;
+    margin-right: 2em;
+} */
+
+@media(max-width: 768px){
+    .edu_main_list{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sublist_style{
+        width: 30%;
+        height: 30%;
+        /* padding: 10%; */
+        /* padding: auto;
+        margin: 3em; */
+        display: block;
+    }
+
+
+    .edu_subject_style{
+        text-align: center;
+        padding: auto;
+        margin: auto;
+
+    }
+
+    .link_style{
+        text-align: center;
+        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
+
+
+}

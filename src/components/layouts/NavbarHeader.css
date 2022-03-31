@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box;  */
+}
+
+.imageresize{
+    width: 4%;
+    height: 50%;
+    padding-left: 1em;
+    /* padding-right: 1em; */
+}
+
+.Navbardesign{
+    display: flex;
+    /* justify-content: space-evenly; */
+    position: relative;
+    /* position: fixed; */
+    align-items: center;
+    height: 70px;
+    background-color:white;
+    color: #1bbd36;
+    z-index: 20;
+    box-sizing: border-box; 
+    /* border-bottom:1px solid #1bbd36; */
+}
+
+.List_styling{
+    display: flex;
+    list-style: none;
+    /* justify-content: space-around; */
+    width: 75%;
+}
+
+.List_substyling{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 0 2em;
+    font-weight: bold;
+    color: black;
+    
+}
+.List_substyling:hover {
+    color: #1bbd36;
+    /* border-bottom: 1px solid #1bbd36; */
+}
+
+.dropdown_styling{
+    position: absolute;
+    top: 4em;
+    /* border: 2px solid red; */
+    padding: 3px;
+    margin: 3px;
+    background-color: white;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.dropdown_substyling{
+    list-style: none;
+}
+
+.dropdown_linkstyle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    
+    text-decoration: none;
+    /* padding: 0 2em; */
+    font-weight: bold;
+   
+    color: black;
+}
+
+.dropdown_linkstyle:hover{
+    color: #1bbd36;
+    /* border-bottom: 1px solid #1bbd36; */
+}
+
+
+/* .dropicon_style{
+    position: relative;
+    top: 3px;
+    width: 2em;
+
+} */
+
+.Title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    padding-right: 3em;
+}
+.Title1{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 28px;
+    padding-left: 1em;
+}
