@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.main_form_style{
+    border: 1px solid rgb(100, 100, 100);
+    /* box-shadow: 7px 5px 10px 2px rgb(189, 187, 187); */
+    display: inline-block;
+    /* margin:5em; */
+    margin-left: 30em ;
+    margin-top: 6em;
+    margin-bottom: 6em;
+    line-height: 2em;
+    padding: 3em;
+    /* background-color: bisque; */
+}
+
+.donateform_submit{
+    margin-top: 1em;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    border: none;
+}
+
+.donateform_label_style{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.donateform_submit:hover{
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.input_style{
+    border-radius: 8px;
+    border: none;
+}

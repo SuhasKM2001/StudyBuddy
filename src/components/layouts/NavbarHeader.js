@@ -54,10 +54,14 @@ function NavbarHeader (){
                 <li>
                     <Link to="/orphanage" className='List_substyling'>Donate Here</Link>
                 </li>
+
+                <li>
+                    <Link to="/clothdonation" className='List_substyling'>Cloth Donation</Link>
+                </li>
             
                 {/* <li>
                     <Link to="/volunteer" className='List_substyling'>Volunteer Login </Link>
-                </li> */}
+                </li>  */}
             
                 <li>
                     <Link to="/aboutus" className='List_substyling'>Who we are</Link>

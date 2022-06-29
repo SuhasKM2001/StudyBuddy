@@ -8,7 +8,7 @@ function BiologyPage()
       <h3 className="maths_liveclass_heading_style">Upcoming Live Session</h3>
 
       <div className="maths_liveclass_style">
-        <p className="maths_liveclass_text_style">Date: 16/02/2022</p>
+        <p className="maths_liveclass_text_style">Date: 26/06/2022</p>
         <p className="maths_liveclass_text_style">Time: 6 PM</p>
         <p className="maths_liveclass_text_style">Topic: Natural Resources</p>
         <button className="maths_button_style">

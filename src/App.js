@@ -5,6 +5,7 @@ import Homepage from './pages/HomePage';
 import Donation from './pages/Donation';
 import Education from './pages/Education';
 import OrphangeLoginPage from './pages/OrphanageLoginpage';
+import ClothDonation from './pages/ClothDonation';
 import VolunteerLoginPage from './pages/VolunteerLoginpage';
 import AboutUs from './pages/AboutUs';
 import FooterComponent from './components/layouts/FooterComponent';
@@ -15,6 +16,7 @@ import ChemistryPage from './components/Learning_Hub/Chemistry';
 import BiologyPage from './components/Learning_Hub/Biology';
 import SocialPage from './components/Learning_Hub/Social_Science';
 import Donatehereform from './components/books_donate/Donatehereform';
+import ClothDonateform from './components/cloth_donate/ClothDonateform';
 
 function App() {
   return( 
@@ -37,6 +39,10 @@ function App() {
 
       <Route path='/orphanage'>
         <OrphangeLoginPage />
+      </Route>
+
+      <Route path='/clothdonation'>
+        <ClothDonation />
       </Route>
 
       <Route path='/volunteer'>
@@ -73,6 +79,10 @@ function App() {
 
       <Route path='/donatehereform'>
         <Donatehereform />
+      </Route>
+
+      <Route path='/clothdonateform'>
+        <ClothDonateform />
       </Route>
 
       </Switch>
