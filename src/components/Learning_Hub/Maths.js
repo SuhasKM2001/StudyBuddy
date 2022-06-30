@@ -7,12 +7,12 @@ function MathsPage() {
       <h3 className="maths_liveclass_heading_style">Upcoming Live Session</h3>
 
       <div className="maths_liveclass_style">
-        <p className="maths_liveclass_text_style">Date: 22/06/2022</p>
+        <p className="maths_liveclass_text_style">Date: 01/07/2022</p>
         <p className="maths_liveclass_text_style">Time: 6 PM</p>
         <p className="maths_liveclass_text_style">Topic: Algebra</p>
         <button className="maths_button_style">
           <a
-            href="https://us05web.zoom.us/j/89641770571?pwd=WEVyMmc5VlV5Rm9oZi9XNnF5TjJ2Zz09
+            href="https://us04web.zoom.us/j/73627965522?pwd=Wsph2oaAceufVkzzI2gMs2HC1XhIot.1
 "
             target="_blank"
             className="maths_link_style"
