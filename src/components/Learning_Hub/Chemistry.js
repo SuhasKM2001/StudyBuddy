@@ -8,7 +8,7 @@ function ChemistryPage()
       <h3 className="maths_liveclass_heading_style">Upcoming Live Session</h3>
 
       <div className="maths_liveclass_style">
-        <p className="maths_liveclass_text_style">Date: 07/07/2022</p>
+        <p className="maths_liveclass_text_style">Date: 07/03/2023</p>
         <p className="maths_liveclass_text_style">Time: 6 PM</p>
         <p className="maths_liveclass_text_style">Topic: Carbon</p>
         <button className="maths_button_style">

@@ -8,7 +8,7 @@ function PhysicsPage()
       <h3 className="maths_liveclass_heading_style">Upcoming Live Session</h3>
 
       <div className="maths_liveclass_style">
-        <p className="maths_liveclass_text_style">Date: 09/07/2022</p>
+        <p className="maths_liveclass_text_style">Date: 09/03/2023</p>
         <p className="maths_liveclass_text_style">Time: 6 PM</p>
         <p className="maths_liveclass_text_style">Topic: Electricity</p>
         <button className="maths_button_style">

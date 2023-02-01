@@ -5,16 +5,6 @@ import { RiArrowDropDownLine } from 'react-icons/ri'
 import LOGO2 from '../img/LOGO2.png'
 
 function NavbarHeader (){
-
-    // const[donate_dropdown, setdonate_dropdown]=useState(false);
-
-    // function Donatedropdown()
-    // {
-    //     if(donate_dropdown==true)
-    //     setdonate_dropdown(false);
-    //     else
-    //     setdonate_dropdown(true);
-    //}
     return (
         <header>
         <nav className='Navbardesign'>
@@ -64,7 +54,7 @@ function NavbarHeader (){
                 </li>  */}
             
                 <li>
-                    <Link to="/aboutus" className='List_substyling'>Who we are</Link>
+                    <Link to="/aboutus" className='List_substyling'>About</Link>
                 </li>
             </ul>
 

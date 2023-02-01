@@ -33,8 +33,8 @@ const AboutUs = () => {
             {/* <br/> */}
 
             <div className={classes.Contact_us}>
-                <span><u>PHONE NUMBER:</u><br/>+91 7411017576<br/>+91 8197163632<br/></span><br/>
-                <span><u>EMAIL ID:</u><br/>spoorthivreddy20@gmail.com<br/>suhaskm@gmail.com</span>
+                <span><u>PHONE NUMBER:</u><br/><br/>+91 8197163632<br/></span><br/>
+                <span><u>EMAIL ID:</u><br/><br/>suhasvarun1@gmail.com</span>
             </div>
       </div>
     </div>
